@@ -1,7 +1,7 @@
 # Functions Go Here
 # This function will ask the user for a food item, check if it's a valid salad ingredient, then return the value
 def ingredient_check(question, valid_ingredients=['cheese', 'lettuce', 'tomato', 'chicken',
-'pasta','rocket', 'onion', 'capsicum', 'spring onion', 'soy sauce', 'vinegar', 'salt', 'pepper'], num_letters = 3):
+'pasta','rocket', 'onion', 'capsicum', 'spring onion', 'soy sauce', 'vinegar', 'salt', 'pepper']):
     """Checks that users enter the full word
     or the first letter of a word from a list of valid responses"""
 
