@@ -18,6 +18,7 @@ def price_checker(item, num_letters):
     item = item.lower()
     error = "Sorry, this ingredient is not recognised"
 
+    # Allows the user to finish adding ingredients by inputting 'xxx'
     if item == "xxx":
         return "xxx"
 
